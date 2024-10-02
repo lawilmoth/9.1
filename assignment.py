@@ -4,8 +4,10 @@
 # Create a class called Cat. The class should have the following attributes:
 # name, age, color
 class Cat:
-    def __init__() -> None:
-        raise NotImplementedError("9.1")
+    def __init__(self, name) -> None:
+        self.name = name
+
+
 
 # 9.2
 # create a cat object and print the name, age, and color of the cat
@@ -17,7 +19,7 @@ class Cat:
 def create_cat():
     raise NotImplementedError("9.2")
 
-print("hello")
+
 
 # 9.3 
 # Create a new class, then change the age of the cat to 4 after the cat object is created
